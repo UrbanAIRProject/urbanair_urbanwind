@@ -93,6 +93,7 @@ def get_wind_extreme_dt(LOCATION, date="-14"):
     from polytope.api import Client
     import numpy as np
     import pandas as pd
+    import earthkit.data
 
     LIVE_REQUEST = True
 
